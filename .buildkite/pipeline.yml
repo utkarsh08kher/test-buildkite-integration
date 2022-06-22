@@ -1,10 +1,5 @@
 agents:
-  queue: "something"
+  queue: "default"
 
 steps:
-  - command: "blah.sh"
-  - command: "blahblah.sh"
-  - label: "Yada"
-    command: "yada.sh"
-    agents:
-      queue: "other"
+  - command: "check.sh"
